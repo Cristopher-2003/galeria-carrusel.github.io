@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagen_principal img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.galeria{
+    padding: 16px;
+}
+
+.lista-imagenes img{
+    width: 100%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    display: block;
+    margin-top: 10px;
+}
+.lista-imagenes{
+    display: flex;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.galeria_dos{
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+}
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+.cuerpo_card{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+}
+.cuerpo_card h5,
+.cuerpo_card p{
+    margin: 0;
+}
+.card img{
+    width: 200px;
+    object-fit: cover;
+    height: 300px;
+}
